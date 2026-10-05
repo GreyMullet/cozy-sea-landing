@@ -6,7 +6,19 @@ export const metadata: Metadata={
     description: "Реквизиты ИП Пономаренко Джульетта Вагановна — гостевой дом «Уютное море» в Анапе.",
 }
 
-const sections=[
+type Row={
+    dt: string
+    dd: string
+    mono?: boolean
+    href?: string
+}
+
+type Section={
+    title: string
+    rows: Row[]
+}
+
+const sections: Section[]=[
     {
         title: "Организация",
         rows: [
