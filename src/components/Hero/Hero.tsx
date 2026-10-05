@@ -42,7 +42,7 @@ export const Hero=()=>{
                 <dl className="grid grid-cols-3 gap-3 sm:gap-5">
                     {
                         heroCards.map(el=>{
-                            return (
+                            return(
                                 <div
                                     key={el.label}
                                     className="space-y-1 sm:space-y-2 border bg-white border-ink/10 rounded-xl sm:rounded-2xl p-3 sm:p-5"
