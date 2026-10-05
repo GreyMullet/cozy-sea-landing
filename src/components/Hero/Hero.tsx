@@ -10,7 +10,7 @@ export const Hero=()=>{
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal opacity-75" />
                         <span className="relative inline-flex h-2 w-2 rounded-full bg-teal" />
                     </span>
-                    Свободно 4 номера на сентябрь
+                    Свободно 3 номера на октябрь
                 </span>
 
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold max-w-5xl leading-tight" id="hero-heading">
