@@ -9,7 +9,7 @@ export default function Home(){
             <Services />
             <Rooms />
             <Location />
-            <BookingFrame src="http://147.45.249.16:3021/" />
+            <BookingFrame src="https://anapar-module.roomfox.ru/" />
         </div>
     )
 }
