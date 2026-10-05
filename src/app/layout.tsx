@@ -30,6 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">){
                 <div className="bg-mesh" aria-hidden="true" />
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     )
